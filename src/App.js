@@ -24,6 +24,7 @@ class App extends Component {
     const { counter } = this.state;
     return (
       <>
+        <h3>This is a demo app</h3>
         {counter.map((item) => (
           <Counter key={item} counterNo={item} onDelete={this.handleDelete} />
         ))}
